@@ -1,0 +1,13 @@
+/* Neon backlight styles */
+.neon-purple {
+    box-shadow: 0 0 15px rgba(147, 112, 219, 0.75); /* Adjust color and size as needed */
+  }
+  
+  .neon-green {
+    box-shadow: 0 0 15px rgba(50, 205, 50, 0.75); /* Adjust color and size as needed */
+  }
+  
+  .neon-blue {
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.75); /* Adjust color and size as needed */
+  }
+  

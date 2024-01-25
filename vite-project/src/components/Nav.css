@@ -1,0 +1,27 @@
+/* Basic styling for nav items */
+.nav-item {
+    position: relative; /* Required for absolute positioning of the pseudo-element */
+    overflow: hidden; /* Ensures the pseudo-element is clipped to the nav item's dimensions */
+  }
+  
+  .nav-item span {
+    position: relative; /* Ensures the text is above the pseudo-element */
+  }
+  
+  /* Styling for the animated underline */
+  .nav-item::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px; /* Adjust the height of the underline as needed */
+    bottom: 0; /* Align to the bottom of the nav item */
+    left: -100%; /* Start from the left */
+    background-color: Fuchsia; /* Your desired color for the underline */
+    transition: all 0.4s; /* Adjust timing as needed */
+  }
+  
+  .nav-item:hover::before {
+    left: 100%; /* Move to the right on hover */
+  }
+  
+  
